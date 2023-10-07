@@ -52,7 +52,7 @@ import 'package:text_3d/text_3d.dart';
 
 Here's a quick example of how to use the `ThreeDText` widget:
 
-![Example Image](assets/images/perspectiveRaised.png)
+![Example Image](./assets/images/perspectiveRaised.png)
 
 ```dart
  ThreeDText(
@@ -66,7 +66,7 @@ perspectiveDepth: 30, // Adjust this value to control perspective intensity
 
 ```
 
-![Example Image](assets/images/perspectiveInset.png)
+![Example Image](./assets/images/perspectiveInset.png)
 
 ```dart
  ThreeDText(
@@ -79,7 +79,7 @@ perspectiveDepth: 20,
 ),
 ```
 
-![Example Image](assets/images/perspectiveRight.png)
+![Example Image](./assets/images/perspectiveRight.png)
 
 ```dart
 ThreeDText(
@@ -90,7 +90,7 @@ perspectiveDepth: 45.0,
 ),
 ```
 
-![Example Image](assets/images/perspectiveLeft.png)
+![Example Image](./assets/images/perspectiveLeft.png)
 
 ```dart
   ThreeDText(
@@ -105,7 +105,7 @@ perspectiveDepth: -45.0
 ),
 ```
 
-![Example Image](assets/images/inset.png)
+![Example Image](./assets/images/inset.png)
 
 ```dart
 ThreeDText(
@@ -118,7 +118,7 @@ style: ThreeDStyle.inset,
 ),
 ```
 
-![Example Image](assets/images/raised.png)
+![Example Image](./assets/images/raised.png)
 
 ```dart
 ThreeDText(
@@ -129,7 +129,7 @@ style: ThreeDStyle.raised,
 ),
 ```
 
-![Example Image](assets/images/standard.png)
+![Example Image](./assets/images/standard.png)
 
 ```dart
 ThreeDText(
@@ -140,7 +140,7 @@ style: ThreeDStyle.standard,
 ),
 ```
 
-![Example Image](assets/images/insetAngle.png)
+![Example Image](./assets/images/insetAngle.png)
 
 ```dart
 ThreeDText(
