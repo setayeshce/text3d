@@ -31,7 +31,7 @@ class ThreeDText extends StatelessWidget {
     this.depth = 10.0,
     this.style = ThreeDStyle.standard,
     this.angle = 0.0,
-    this.perspectiveDepth = 300.0,  // Default perspective depth
+    this.perspectiveDepth = 300.0, // Default perspective depth
   });
 
   @override
@@ -59,7 +59,8 @@ class ThreeDText extends StatelessWidget {
   // Function to paint the 3D effect on the canvas.
   void paint(Canvas canvas, Size size) {
     final textSpan = TextSpan(text: text, style: textStyle);
-    final textPainter = TextPainter(text: textSpan, textDirection: TextDirection.ltr);
+    final textPainter =
+        TextPainter(text: textSpan, textDirection: TextDirection.ltr);
 
     for (int i = 1; i <= depth; i++) {
       textPainter.paint(canvas, Offset(i * sin(angle), i * cos(angle)));
@@ -69,19 +70,14 @@ class ThreeDText extends StatelessWidget {
 
   // Calculate offset based on the angle for 3D shadow.
   Offset _calculateOffset(int i) {
-    return Offset(
-        i * sin(angle),
-        i * cos(angle)
-    );
+    return Offset(i * sin(angle), i * cos(angle));
   }
 
   // Normalize the layer number to get 3D effect.
   Offset _calculate3DOffset(int layer) {
     double factor = layer / depth;
-    return Offset(
-        lerpDouble(0, _calculateOffset(layer).dx, factor)!,
-        lerpDouble(0, _calculateOffset(layer).dy, factor)!
-    );
+    return Offset(lerpDouble(0, _calculateOffset(layer).dx, factor)!,
+        lerpDouble(0, _calculateOffset(layer).dy, factor)!);
   }
 
   // Generate perspective transformation matrix.
@@ -165,7 +161,9 @@ class ThreeDText extends StatelessWidget {
             offset: _calculate3DOffset(i),
             child: Text(
               text,
-              style: textStyle.copyWith(color: Colors.black.withOpacity(0.1 / i)), // Fading the shadow makes it more realistic
+              style: textStyle.copyWith(
+                  color: Colors.black.withOpacity(
+                      0.1 / i)), // Fading the shadow makes it more realistic
             ),
           ),
         ),

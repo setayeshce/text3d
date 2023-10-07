@@ -38,13 +38,13 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ThreeDText(
-          text: 'perspectiveRaised',
-          textStyle: TextStyle(fontSize: 40, color: Colors.green),
-          depth: 10,
-          style: ThreeDStyle.perspectiveRaised,
-          angle: pi / 6,
-          perspectiveDepth: 30,
-        ),
+            text: 'perspectiveRaised',
+            textStyle: TextStyle(fontSize: 40, color: Colors.green),
+            depth: 10,
+            style: ThreeDStyle.perspectiveRaised,
+            angle: pi / 6,
+            perspectiveDepth: 30,
+          ),
           ThreeDText(
             text: 'perspectiveInset',
             textStyle: TextStyle(fontSize: 40, color: Colors.purpleAccent),
@@ -62,9 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ThreeDText(
             text: 'perspectiveLeft',
             textStyle: const TextStyle(
-                fontSize: 25,
-                color: Colors.pink ,
-                fontWeight: FontWeight.bold),
+                fontSize: 25, color: Colors.pink, fontWeight: FontWeight.bold),
             depth: 6,
             style: ThreeDStyle.perspectiveLeft,
             perspectiveDepth: -45.0,
@@ -81,15 +79,13 @@ class _MyHomePageState extends State<MyHomePage> {
             text: 'raised',
             textStyle: TextStyle(fontSize: 64, color: Colors.blue),
             depth: 10,
-            style: ThreeDStyle
-                .raised,
+            style: ThreeDStyle.raised,
           ),
           ThreeDText(
             text: 'standard',
             textStyle: TextStyle(fontSize: 40, color: Colors.blue),
             depth: 5,
-            style: ThreeDStyle
-                .standard,
+            style: ThreeDStyle.standard,
           ),
           ThreeDText(
             text: 'inset with angle',
@@ -99,7 +95,6 @@ class _MyHomePageState extends State<MyHomePage> {
             angle: 70,
             // 30 degrees
           ),
-
         ],
       )),
     );

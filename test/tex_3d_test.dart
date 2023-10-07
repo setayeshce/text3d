@@ -5,7 +5,8 @@ import 'package:text_3d/text_3d.dart';
 void main() {
   // This group is for basic instantiation tests
   group('ThreeDText instantiation', () {
-    testWidgets('should instantiate with standard style without errors', (WidgetTester tester) async {
+    testWidgets('should instantiate with standard style without errors',
+        (WidgetTester tester) async {
       await tester.pumpWidget(MaterialApp(
         home: ThreeDText(
           text: 'Test',
@@ -15,7 +16,8 @@ void main() {
       ));
     });
 
-    testWidgets('should instantiate with raised style without errors', (WidgetTester tester) async {
+    testWidgets('should instantiate with raised style without errors',
+        (WidgetTester tester) async {
       await tester.pumpWidget(MaterialApp(
         home: ThreeDText(
           text: 'Test',
@@ -30,7 +32,8 @@ void main() {
 
   // This group can be used to test other properties or behaviors
   group('ThreeDText properties and behaviors', () {
-    testWidgets('should handle custom depth without errors', (WidgetTester tester) async {
+    testWidgets('should handle custom depth without errors',
+        (WidgetTester tester) async {
       await tester.pumpWidget(MaterialApp(
         home: ThreeDText(
           text: 'Test Depth',
@@ -40,6 +43,5 @@ void main() {
         ),
       ));
     });
-
   });
 }
