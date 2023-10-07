@@ -52,7 +52,8 @@ import 'package:text_3d/text_3d.dart';
 
 Here's a quick example of how to use the `ThreeDText` widget:
 
-![Example Image](./assets/images/perspectiveRaised.png)
+![Example Image](https://github.com/setayeshce/text3d/blob/main/assets/images/perspectiveRaised.png?raw=true)
+
 
 ```dart
  ThreeDText(
@@ -61,12 +62,13 @@ textStyle: TextStyle(fontSize: 40, color: Colors.green),
 depth: 10,
 style: ThreeDStyle.perspectiveRaised,
 angle: pi / 6,
-perspectiveDepth: 30, // Adjust this value to control perspective intensity
+perspectiveDepth: 30, 
 ),
 
 ```
 
-![Example Image](./assets/images/perspectiveInset.png)
+![Example Image](https://github.com/setayeshce/text3d/blob/main/assets/images/perspectiveInset.png?raw=true)
+
 
 ```dart
  ThreeDText(
@@ -79,7 +81,7 @@ perspectiveDepth: 20,
 ),
 ```
 
-![Example Image](./assets/images/perspectiveRight.png)
+![Example Image](https://github.com/setayeshce/text3d/blob/main/assets/images/perspectiveRight.png?raw=true)
 
 ```dart
 ThreeDText(
@@ -90,7 +92,8 @@ perspectiveDepth: 45.0,
 ),
 ```
 
-![Example Image](./assets/images/perspectiveLeft.png)
+![Example Image](https://github.com/setayeshce/text3d/blob/main/assets/images/perspectiveLeft.png?raw=true)
+
 
 ```dart
   ThreeDText(
@@ -105,7 +108,7 @@ perspectiveDepth: -45.0
 ),
 ```
 
-![Example Image](./assets/images/inset.png)
+![Example Image](https://github.com/setayeshce/text3d/blob/main/assets/images/inset.png?raw=true)
 
 ```dart
 ThreeDText(
@@ -118,7 +121,8 @@ style: ThreeDStyle.inset,
 ),
 ```
 
-![Example Image](./assets/images/raised.png)
+
+![Example Image](https://github.com/setayeshce/text3d/blob/main/assets/images/raised.png?raw=true)
 
 ```dart
 ThreeDText(
@@ -129,7 +133,8 @@ style: ThreeDStyle.raised,
 ),
 ```
 
-![Example Image](./assets/images/standard.png)
+![Example Image](https://github.com/setayeshce/text3d/blob/main/assets/images/standard.png?raw=true)
+
 
 ```dart
 ThreeDText(
@@ -140,7 +145,8 @@ style: ThreeDStyle.standard,
 ),
 ```
 
-![Example Image](./assets/images/insetAngle.png)
+![Example Image](https://github.com/setayeshce/text3d/blob/main/assets/images/insetAngle.png?raw=true)
+
 
 ```dart
 ThreeDText(
