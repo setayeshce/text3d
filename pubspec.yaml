@@ -1,6 +1,6 @@
 name: text_3d
 description: This Flutter package, text_3d, provides a versatile solution for implementing 3D text effects in your applications. It offers multiple styles such as standard, raised, and inset, along with customizable depth and angles. Ideal for enhancing UI/UX by adding a new dimension to text elements.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/setayeshce/text3d
 
 
