@@ -174,7 +174,7 @@ packages:
       path: "C:\\\\Users\\\\Administrator\\\\Desktop\\\\text3D"
       relative: false
     source: path
-    version: "0.0.2"
+    version: "0.0.3"
   vector_math:
     dependency: transitive
     description:
