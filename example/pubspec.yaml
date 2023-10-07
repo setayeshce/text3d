@@ -29,7 +29,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   text_3d:
-    path: C:/Users/Administrator/Desktop/tex3D
+    path: C:\\Users\\Administrator\\Desktop\\text3D
   flutter:
     sdk: flutter
 

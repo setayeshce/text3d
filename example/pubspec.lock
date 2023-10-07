@@ -171,7 +171,7 @@ packages:
   text_3d:
     dependency: "direct main"
     description:
-      path: "C:/Users/Administrator/Desktop/tex3D"
+      path: "C:\\\\Users\\\\Administrator\\\\Desktop\\\\text3D"
       relative: false
     source: path
     version: "0.0.1"
